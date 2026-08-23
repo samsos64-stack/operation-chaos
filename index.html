@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#2B2320">
+<meta name="description" content="Comédie de braquages : fouille les lieux, fabrique tes outils, construis ta planque et évite les gardes.">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Opération Chaos</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;background:#2B2320;color:#FBF6E9;
+    font-family:Georgia,serif;-webkit-tap-highlight-color:transparent}
+  body{display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:22px;padding:24px;text-align:center}
+  img{width:132px;height:132px;border-radius:28px;box-shadow:0 8px 24px #0007}
+  h1{font-size:30px;letter-spacing:.5px}
+  p{max-width:340px;line-height:1.55;opacity:.85;font-size:15px}
+  a.jouer{display:inline-block;margin-top:6px;padding:16px 42px;border-radius:16px;
+    background:#3E7C4F;color:#fff;font-size:19px;font-weight:bold;text-decoration:none;
+    font-family:system-ui,sans-serif;box-shadow:0 4px 14px #0006}
+  a.jouer:active{background:#E8C34B;color:#2B2320}
+  small{opacity:.55;font-size:12px}
+</style>
+</head>
+<body>
+  <img src="icon-192.png" alt="Opération Chaos">
+  <h1>Opération Chaos</h1>
+  <p>Tu viens d'hériter du garage de Tonton Raymond : 214 casses, 214 échecs.
+     À toi de faire mieux.</p>
+  <a class="jouer" href="jeu.html">JOUER</a>
+  <small>Première ouverture : connexion requise quelques secondes</small>
+<!-- aucun script ici : la mise en cache est lancée par le jeu lui-même,
+       sinon les analyseurs attendent la fin des téléchargements et expirent -->
+</body>
+</html>
